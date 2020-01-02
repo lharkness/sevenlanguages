@@ -6,6 +6,9 @@ print "Hello, Ruby".index("Ruby").to_s << "\n"
 # If you don't need access to the index, this works
 10.times {puts "Lee Harkness"}
 
+# It turns out if you do need access to the index, you can do this
+10.times {|i| puts "#{i + 1} Lee Harkness"}
+
 # This is a while, followed by the equivalent for
 i = 1
 while i <= 10 
